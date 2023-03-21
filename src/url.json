@@ -1,0 +1,44 @@
+{
+    "picard" : 
+        {"space" : "+",
+        "title" : ".pi-ProductCard-name",
+        "price" : ".pi-ProductCardPrice",
+        "image" : ".pi-ProductCard-image",
+        "search" : "https://www.picard.fr/recherche?q="},
+    "leclerc" : 
+        {"space" : "%20",
+        "title" : ".product-label-brand",
+        "price" : "#price",
+        "image" : ".img-fluid",
+        "search" : "https://www.e.leclerc/recherche?q="},
+    "auchan" : 
+        {"space" : "%20",
+        "title" : ".product-thumbnail__description",
+        "price" : ".product-price",
+        "image" : "#",
+        "search" : "https://www.auchan.fr/recherche?text="},
+    "intermarche" : 
+        {"space" : "%20",
+        "title" : ".infoTile__title",
+        "price" : ".product__productPrice",
+        "image" : ".product__image",
+        "search" : "https://www.intermarche.com/recherche/"},
+    "carrefour" : 
+        {"space" :"+",
+        "title" : ".product-card-title__reduced-line-clamp",
+        "price" : ".product-price__amount-value",
+        "image" : ".product-card-image__image",
+        "search" : "https://www.carrefour.fr/s?q="},
+    "cora" : 
+        {"space" : "%20",
+        "title" : ".c-product-list-title__intitule-slice",
+        "price" : ".c-price__amount",
+        "image" : ".c-product-image__main-image",
+        "search" : "https://www.cora.fr/recherche?keywords="},
+    "monoprix" : 
+        {"space" : "/",
+        "title" : ".grocery-item-range",
+        "price" : ".grocery-item__normal-price",
+        "image" : ".grocery-item__product-img",
+        "search" : "https://www.monoprix.fr/courses/search/"}
+}
